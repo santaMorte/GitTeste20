@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+html, body {
+    font-family: 'Roboto';
+    background-color: #1c1c1c;
+    color: white;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+.cardColor {
+    background-color: pink;
+}
+
+.titulo{
+    text-align: center;
+    padding: 2em;
+}
+
+nav {
+    top: 0;
+    position: sticky !important;
+    z-index: 99;
+}
+
+section {
+    padding-top: 70px;
+}
+
+.Jumbotron {
+    width: 98%;
+    margin: 8em auto 2em auto;
+    border-radius: 8px;
+    height: auto;
+    /* background-color: black; */
+    color: white;
+    padding: 4em;
+}
+
+.Jumbotron h1{
+   font-size: 4em;
+}
+
+.Jumbotron p{
+    width: 50%;
+    line-height: 1.5em;
+    padding: 2em 0;
+}
+
+.Jumbotron h5{
+    line-height: 1.5em;
+    padding-bottom: .8em;
+}
+
+.Jumbotron button{
+    background-color: black;
+    padding: 20px 40px;
+ }
